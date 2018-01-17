@@ -1,0 +1,40 @@
+# code coverage
+coverage
+lib-cov
+test-results.xml
+clover.xml
+tmp.md
+
+# editor and that .tmp file
+.idea
+.tmp
+
+# Node logs
+npm-debug.log*
+logs
+*.log
+pids
+*.pid
+*.seed
+
+# Dependency directories
+node_modules
+
+# Optional npm cache directory
+.npm
+
+# Linux ignores
+*~
+.fuse_hidden
+.directory
+.Trash-*
+
+## JetBrains file-based project format:
+*.iws
+
+# SASS
+.sass-cache/
+*.css.map
+
+# JetBrains Rider
+*.sln.iml

@@ -1,0 +1,26 @@
+{
+  "name": "esm-issue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test-index": "nyc --reporter=lcov --reporter=text-lcov --require=@std/esm mocha test/index-test.js",
+    "test-other": "nyc --reporter=lcov --reporter=text-lcov --require=@std/esm mocha test/thing-test.js"
+  },
+  "author": {
+    "name": "Julian Jensen",
+    "email": "jjdanois@gmail.com"
+  },
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "@std/esm": "^0.19.3",
+    "chai": "^4.1.2",
+    "mocha": "^4.1.0",
+    "nyc": "^11.4.1"
+  },
+  "@std/esm": {
+    "esm": "js",
+    "cjs": true
+  }
+}
