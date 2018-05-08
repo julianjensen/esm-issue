@@ -12,6 +12,8 @@ in `package.json`.
 
 0.19.3
 ======
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/julianjensen/esm-issue.svg)](https://greenkeeper.io/)
 I'm using 0.19.3 for these. See below for 0.19.5.
 
 `node run.js` works with or without the `package.json` entries.
